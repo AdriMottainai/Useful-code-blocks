@@ -1,0 +1,8 @@
+// how to shift bits value to the right
+
+byte val = 0xcc; 
+console.log(    val   ); // 0xcc - 11001100
+console.log( val >> 1 ); // 0x66 - 01100110
+console.log( val >> 2 ); // 0x33 - 00110011
+console.log( val >> 3 ); // 0x19 - 00011001
+console.log( val >> 4 ); // 0x0c - 00001100
